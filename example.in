@@ -1,0 +1,20 @@
+/tracking/verbose 0
+/event/verbose 0
+
+/tracking/storeTrajectory 0
+
+# e- 8GeV
+/gun/energy 8 GeV
+/gun/particle e-
+
+/DP/det/setField 0.0 tesla
+/DP/det/setTBxField -3.0
+/DP/det/setRBxField -0.5
+
+/DP/Event/StartID 0
+/DP/Event/NbEvent 1000
+
+/run/beamOn 1000
+
+
+exit
